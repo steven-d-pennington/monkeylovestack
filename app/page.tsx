@@ -35,8 +35,8 @@ export default function Home() {
           <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
             I&apos;m Steven. I built AI systems that generate my leads, produce
             my podcast, and run my social media — every day, without me lifting
-            a finger. MonkeyLoveStack is those same systems, fully managed, for
-            your business.
+            a finger. MonkeyLoveStack takes the same approach and builds custom
+            AI pipelines for your business. Fully managed. You get the output.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -141,11 +141,10 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              What&apos;s actually running right now.
+              What&apos;s already running — for us.
             </h2>
             <p className="text-gray-400 text-lg">
-              Three proven capabilities. Not roadmap items. Not demos. Production
-              systems.
+              These are three systems we built and run every day. But the real offer is simpler: tell us what workflow is eating your time, and we&apos;ll build the pipeline.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
@@ -250,7 +249,7 @@ export default function Home() {
           <div className="p-8 rounded-2xl bg-violet-500/10 border border-violet-500/30 ring-1 ring-violet-500/20">
             <ul className="space-y-4 mb-8">
               {[
-                "Pick any one capability to start (Lead Gen, Podcast, or Social Media)",
+                "One custom AI pipeline built for your business — or start with a proven one",
                 "Fully managed — setup, hosting, optimization, all included",
                 "Direct access to Steven via Telegram",
                 "Monthly optimization based on your results",
@@ -307,8 +306,8 @@ export default function Home() {
                 a: "You approve everything that goes public. Leads are scored and filtered before they reach you. Podcast episodes go through a review step. Social posts can be previewed before publishing. You stay in control.",
               },
               {
-                q: "I only need one of these things.",
-                a: "Perfect. Start with one. Most founders start with lead gen or social, then add capabilities once they see results. The founding client tier is built for exactly this.",
+                q: "I need something completely different from these three.",
+                a: "Good — that's the point. These are examples, not a menu. We build custom pipelines for whatever's eating your time. The founding client tier gets you one fully managed pipeline to start, and we go from there.",
               },
               {
                 q: "How is this different from Jasper, Copy.ai, or other AI tools?",
@@ -327,8 +326,8 @@ export default function Home() {
                 a: "You keep everything produced during your engagement. Episodes, content, lead lists — it's all yours. Month-to-month, no contracts, no exit fees.",
               },
               {
-                q: "Can you do [other thing]?",
-                a: "Maybe. The three capabilities listed are what's proven and running today. I don't sell vaporware. If you need something else, let's talk — but I'll tell you honestly if it's not ready yet.",
+                q: "Can you build something not listed here?",
+                a: "Almost certainly. Lead gen, podcasts, and social media are proof of what the system can do — not the limits of it. If your business runs on repeatable workflows, we can probably automate them. Data pipelines, report generation, customer outreach, content repurposing, monitoring — if you can describe the process, we can build the pipeline. Book a call and let's talk about your specific needs.",
               },
             ].map((item) => (
               <div
