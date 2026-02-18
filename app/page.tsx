@@ -136,6 +136,107 @@ export default function Home() {
         </div>
       </section>
 
+      {/* More Than Automation */}
+      <section className="py-24 px-6 border-b border-white/5">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              Stop being the only one who knows
+              <br />
+              <span className="bg-gradient-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
+                how your business works.
+              </span>
+            </h2>
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+              Automation tools run workflows. They&apos;re excellent plumbing. But you
+              can&apos;t ask a pipe a question.
+            </p>
+          </div>
+
+          <div className="p-8 rounded-2xl bg-white/[0.03] border border-white/5 mb-10">
+            <div className="space-y-5 text-gray-400 leading-relaxed">
+              <p>
+                Zapier moves data from A to B. n8n chains triggers to actions. They do
+                exactly what you told them to do — nothing more, nothing less. They don&apos;t
+                know your product, your customers, or why you made that call in November.
+                They execute, then forget everything.
+              </p>
+              <p className="text-gray-300 font-medium">
+                MonkeyLoveStack is different. Every client gets a system that&apos;s been set
+                up with your business context — your docs, your data, your processes,
+                whatever matters. It runs your pipelines automatically. But it also becomes
+                something automation tools never are: a knowledgeable presence you can
+                actually talk to.
+              </p>
+              <p>
+                Message it on Telegram. Ask what happened to this week&apos;s lead numbers.
+                Ask it to pull together a summary for a client call. Ask it something you
+                haven&apos;t thought to automate yet. It knows your business. It answers.
+              </p>
+            </div>
+          </div>
+
+          {/* Comparison */}
+          <div className="grid grid-cols-3 gap-0 rounded-2xl overflow-hidden border border-white/5 mb-10">
+            <div className="p-5 bg-white/[0.02]" />
+            <div className="p-5 bg-white/[0.02] text-center">
+              <p className="text-sm font-medium text-gray-500">Automation Tools</p>
+              <p className="text-xs text-gray-600">Zapier / n8n / Make</p>
+            </div>
+            <div className="p-5 bg-violet-500/10 text-center">
+              <p className="text-sm font-medium text-violet-400">MonkeyLoveStack</p>
+            </div>
+            {[
+              { feature: "Runs automated pipelines", them: true, us: true },
+              { feature: "Indexes your business data", them: false, us: true },
+              { feature: "Answers ad-hoc questions", them: false, us: true },
+              { feature: "Handles requests without reprogramming", them: false, us: true },
+              { feature: "Fully managed for you", them: false, us: true },
+              { feature: "Gets smarter over time", them: false, us: true },
+            ].map((row, i) => (
+              <div key={row.feature} className="contents">
+                <div className={`p-4 text-sm text-gray-300 ${i % 2 === 0 ? 'bg-white/[0.01]' : 'bg-white/[0.03]'}`}>
+                  {row.feature}
+                </div>
+                <div className={`p-4 text-center ${i % 2 === 0 ? 'bg-white/[0.01]' : 'bg-white/[0.03]'}`}>
+                  <span className={row.them ? 'text-gray-400' : 'text-gray-600'}>{row.them ? '✓' : '—'}</span>
+                </div>
+                <div className={`p-4 text-center ${i % 2 === 0 ? 'bg-violet-500/[0.05]' : 'bg-violet-500/[0.08]'}`}>
+                  <span className="text-violet-400">✓</span>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* The moment of truth */}
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/5">
+              <p className="text-sm font-medium text-gray-500 mb-3">When something unexpected happens...</p>
+              <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                Your Zapier zap does what it was configured to do. For anything outside the
+                script, you&apos;re on your own at 11pm.
+              </p>
+              <p className="text-xs text-gray-600 italic">
+                &ldquo;Why did lead volume drop 40% today?&rdquo;
+              </p>
+              <p className="text-xs text-gray-600 mt-1">🤷 No answer. It&apos;s plumbing.</p>
+            </div>
+            <div className="p-6 rounded-2xl bg-violet-500/[0.06] border border-violet-500/20">
+              <p className="text-sm font-medium text-violet-400 mb-3">With MonkeyLoveStack...</p>
+              <p className="text-sm text-gray-300 leading-relaxed mb-4">
+                Your system notices the anomaly, checks it against your business context,
+                and messages you — proactively.
+              </p>
+              <p className="text-xs text-gray-400 italic">
+                &ldquo;Hey — order volume dropped 40% in the last 2 hours. Based on what
+                happened in October, this usually means a payment processor issue. Want me
+                to check the Stripe logs?&rdquo;
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Capabilities */}
       <section id="capabilities" className="py-24 px-6 border-b border-white/5">
         <div className="max-w-5xl mx-auto">
