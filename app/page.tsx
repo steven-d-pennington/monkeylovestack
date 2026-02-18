@@ -40,7 +40,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://calendly.com/monkeylovestack/discovery"
+              href="https://calendly.com/steve-d-pennington"
               className="px-8 py-3.5 rounded-full bg-violet-600 hover:bg-violet-500 transition font-semibold text-base"
             >
               Become a Founding Client — $300/mo →
@@ -378,7 +378,7 @@ export default function Home() {
               <span className="text-white font-medium">Limited spots.</span> I personally manage every client. That means capacity is real, not artificial scarcity. When I&apos;m full, this page says so.
             </p>
             <a
-              href="https://calendly.com/monkeylovestack/discovery"
+              href="https://calendly.com/steve-d-pennington"
               className="block text-center py-4 rounded-full bg-violet-600 hover:bg-violet-500 transition font-semibold text-base"
             >
               Become a Founding Client →
@@ -457,7 +457,7 @@ export default function Home() {
             they&apos;re producing it for you.
           </p>
           <a
-            href="https://calendly.com/monkeylovestack/discovery"
+            href="https://calendly.com/steve-d-pennington"
             className="inline-block px-10 py-4 rounded-full bg-violet-600 hover:bg-violet-500 transition font-semibold text-lg"
           >
             Book a Founding Client Call →
