@@ -8,12 +8,20 @@ export default function Home() {
             <span className="text-white">MonkeyLove</span>
             <span className="text-violet-400">Stack</span>
           </span>
-          <a
-            href="#pricing"
-            className="text-sm px-4 py-2 rounded-full bg-violet-600 hover:bg-violet-500 transition font-medium"
-          >
-            Become a Founding Client
-          </a>
+          <div className="flex items-center gap-3">
+            <a
+              href="/workflows"
+              className="text-sm text-gray-400 hover:text-white transition"
+            >
+              Gallery
+            </a>
+            <a
+              href="#pricing"
+              className="text-sm px-4 py-2 rounded-full bg-violet-600 hover:bg-violet-500 transition font-medium"
+            >
+              Become a Founding Client
+            </a>
+          </div>
         </div>
       </nav>
 
@@ -461,6 +469,25 @@ export default function Home() {
             className="inline-block px-10 py-4 rounded-full bg-violet-600 hover:bg-violet-500 transition font-semibold text-lg"
           >
             Book a Founding Client Call →
+          </a>
+        </div>
+      </section>
+
+      {/* Powered by Internal Tools */}
+      <section className="py-20 px-6 border-t border-white/5">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+            Powered by Internal Tools
+          </h2>
+          <p className="text-gray-400 text-lg mb-8">
+            See the actual automated systems we use to deliver client work 10x
+            faster.
+          </p>
+          <a
+            href="/workflows"
+            className="inline-block px-8 py-3.5 rounded-full bg-violet-600 hover:bg-violet-500 transition font-semibold text-base"
+          >
+            Explore the Workflow Gallery →
           </a>
         </div>
       </section>
